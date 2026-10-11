@@ -3,6 +3,7 @@ schema_version: 1
 context:
   version: "0.66b1"
 
+
 package:
   name: opentelemetry-instrumentation-psycopg
   version: ${{ version }}
