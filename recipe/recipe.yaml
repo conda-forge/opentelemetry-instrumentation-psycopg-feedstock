@@ -1,7 +1,8 @@
 schema_version: 1
 
 context:
-  version: "0.66b0"
+  version: "0.66b1"
+
 
 package:
   name: opentelemetry-instrumentation-psycopg
@@ -9,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/opentelemetry-instrumentation-psycopg/opentelemetry_instrumentation_psycopg-${{ version }}.tar.gz
-  sha256: 835a1447ed4396477283a87bf399ad76ae2002aa8def2ca1aff699c74e6de246
+  sha256: 5ac2ef4a413c8349e9d9fb959c937edfaa681c58b494fe643a278d26d9a4ae9e
 
 build:
   number: 0
